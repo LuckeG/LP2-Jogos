@@ -1,49 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-/*public class Main {
-    public static void main(String[] args) {
 
-        Casa casa1 = new Casa(4, 5, "Centro");
-        casa1.exibirCasa();
-        System.out.println();
-
-        Casa casa2 = new Aluguel(10, 20, "Longe", 5000);
-        casa2.exibirCasa();
-    }
-}
-*/
-
-/*public class Main {
-    public static void main(String[] args) {
-
-        Estudante estudante1 = new Estudante("Lucas", 21, "12", 908734638 );
-
-
-        System.out.println("Estudante 1: " +estudante1.getNome());
-        System.out.println("Estudante 1: " +estudante1.getIdade());
-        System.out.println("Estudante 1: " +estudante1.getMatricula());
-        System.out.println("Estudante 1: " +estudante1.getCpf());
-
-        estudante1.setNome("Camily");
-
-        System.out.println("Estudante 1 Modificada: " +estudante1.getNome());
-    }
-}
-*/
-
-/*public class Main{
-    public static void main(String[] args){
-        Animal animal1 = new Cachorro();
-        Animal animal2 = new Gato();
-        animal1.falar();
-        animal2.falar();
-
-    }
-}
-*/
-
-/*public class Main{
+public class Main{
     public static  void main(String[] args){
         Scanner leitor = new Scanner(System.in);
         List<Jogo> jogo = new ArrayList<>();
@@ -95,20 +54,5 @@ import java.util.Scanner;
         }while(opcao!=0);
 
         leitor.close();
-    }
-}
-*/
-
-public class Main{
-    public static void main(String[] args){
-        Scanner leitor = new Scanner(System.in);
-        List<Produto> produtos = new ArrayList<>();
-
-        produtos.add(new Notebook("Acer", 3000, 4));
-        produtos.add(new Smartphone("Positivo", 4000, 5));
-        produtos.add(new Notebook("AlienWare", 9000, 2));
-        produtos.add(new Smartphone("HP", 1000, 10));
-
-
     }
 }
