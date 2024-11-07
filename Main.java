@@ -12,11 +12,12 @@ public class Main{
         jogo.add(new Fisico("Dragon Ball Z", 300, "102923"));
         jogo.add(new Digital("Monster Hunter", 200, "8823474232"));
 
-        for (Jogo jogos : jogo){
-            jogos.exibirJogo();
+        for (int i = 0; i < jogo.size(); i++){
+            jogo.get(i).exibirJogo();
+            System.out.println("---------------")
         }
 
-        do{
+        /*do{
             System.out.println("\nO que deseja ver?");
             System.out.println("1 - Jogos Fisicos");
             System.out.println("2 - Jogos Digitais");
@@ -52,7 +53,7 @@ public class Main{
                     System.out.println("Opção Invalida");
             }
         }while(opcao!=0);
-
+        */
         leitor.close();
     }
 }
